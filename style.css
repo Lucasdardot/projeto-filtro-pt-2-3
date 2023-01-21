@@ -1,0 +1,31 @@
+body{
+    background-image: url(fundo.jpg);
+    text-align: center;
+}
+
+.btn-success{
+    margin-bottom:40px;
+    padding: 10px 20px;
+}
+
+.btn-success:hover{
+border :none;
+background-color: lightblue;
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+canvas{
+    animation-name: canva;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes canva {
+    from{box-shadow: 1px 1px 30px greenyellow;}
+    to{box-shadow: 1px 1px 40px royalblue;}
+}
